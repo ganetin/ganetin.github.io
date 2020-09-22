@@ -10073,6 +10073,16 @@ h3 {
   align-items: center;
 }
 
+.btn-small {
+  border-radius: 100%;
+  display: inline-flex;
+  width: 3.25rem;
+  height: 3.25rem;
+  font-size: 1.25rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0.375rem 0.75rem;
+}
 .scroll-to-top {
   z-index: 1042;
   right: 1rem;
