@@ -10182,9 +10182,10 @@ h3 {
   width: 15rem;
 }
     .masthead .masthead-subsubheading {
-    font-size: 1.0rem;
     text-align: justify;
   text-justify: inter-word;
+        line-height:1.25em;
+
 
   }
 @media (min-width: 992px) {
