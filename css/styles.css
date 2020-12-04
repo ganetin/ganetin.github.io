@@ -109,11 +109,10 @@ address {
 ol,
 ul,
 dl {
-  margin-top: 0;
+  margin-top: -0.5rem;
   margin-bottom: 1rem;
   font-size: 1.25rem;
   font-weight: 400 !important;
-  
 }
 
 ol ol,
@@ -405,9 +404,17 @@ h6, .h6 {
 .lead {
   font-size: 1.25rem;
   font-weight: 400 !important;
-  
+      text-align: justify;
+  text-justify: inter-word;
+  margin-left: auto;
 }
 
+.leadbis {
+  font-size: 1.25rem;
+  font-weight: 400 !important;
+  margin-left: auto;
+
+}
 .display-1 {
   font-size: 6rem;
   font-weight: 300;
@@ -10032,7 +10039,10 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+    color: #fff !important;
+
 }
+
 .divider-custom .divider-custom-line {
   width: 100%;
   max-width: 7rem;
@@ -10171,7 +10181,12 @@ h3 {
 .masthead .masthead-avatar {
   width: 15rem;
 }
+    .masthead .masthead-subsubheading {
+    font-size: 1.0rem;
+    text-align: justify;
+  text-justify: inter-word;
 
+  }
 @media (min-width: 992px) {
   .masthead {
     padding-top: calc(6rem + 104px);
@@ -10182,7 +10197,15 @@ h3 {
     line-height: 3.5rem;
   }
   .masthead .masthead-subheading {
+    font-size: 2.5rem;
+  }
+    .masthead .masthead-subsubheading {
     font-size: 1.5rem;
+    text-align: justify;
+  text-justify: inter-word;
+      line-height:1.5em;
+
+
   }
 }
 .portfolio .portfolio-item {
@@ -10304,3 +10327,20 @@ form .row:first-child .floating-label-form-group {
 }
 
 
+.expertise .expertise-item {
+  position: relative;
+  display: block;
+  max-width: 25rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+      font-size: 3rem;
+    line-height: 2.5rem;
+  background-color: #1abc9c ;
+    text-indent: -10px;
+
+}
+
+li:not(:last-child) {
+    margin-bottom: -0rem;
+    
+}
